@@ -14,9 +14,29 @@ use App\Http\Controllers\ArticleController;
 |
 */
 
+// Route::get('/', function () {
+//     return view('welcome1');
+// });
+
+
 Route::get('/', function () {
-    return view('welcome1');
+
+    $container = new \App\Container();
+
+    $container->bind('example', function () {
+        return new \App\Example();
+    });
+
+
+    $example = $container->resolve('example');
+
+
+    // ddd($container);
+
+    //ddd($example);
+    $example->go();
 });
+
 
 
 
