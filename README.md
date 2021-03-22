@@ -11,6 +11,8 @@ Forms - The Seven Restful Controller Actions, Restful Routing, Form Handling, Fo
 Controller Techniques - Leverage Route Model Binding, Reduce Duplication, Consider Named Routes
 
 Eloquent - Basic Eloquent Relationships, Understanding Foreign Keys and Database Factories, Many to Many Relationships with Linking Tables, Display all tags under each article, Attach and Validate Many to Many Inserts
+
+Core Concepts - Collections, CSRF Attacks with Example, Service Container Fundamentals, Automatically Resolve Dependencies, Laravel Facades Demystified, Service Providers
  
 
 
