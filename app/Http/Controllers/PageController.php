@@ -36,7 +36,8 @@ class PageController extends Controller
 
         //return $file->get(public_path('index.php'));
 
-        Cache::remember('foo', 60, fn() => 'foobar');
+        Cache::remember('foo', 60, fn() => 'foobar'); //resolving to the underlying class and then callng a 
+        //public method on it
 
         return Cache::get('foo');
 
