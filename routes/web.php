@@ -19,25 +19,48 @@ use App\Http\Controllers\ArticleController;
 // });
 
 
-Route::get('/', function () {
+// Route::get('/', function () {
 
-    $container = new \App\Container();
+//     $container = new \App\Container();
 
-    $container->bind('example', function () {
-        return new \App\Example();
-    });
-
-
-    $example = $container->resolve('example');
+//     $container->bind('example', function () {
+//         return new \App\Example();
+//     });
 
 
-    // ddd($container);
-
-    //ddd($example);
-    $example->go();
-});
+//     $example = $container->resolve('example');
 
 
+//     // ddd($container);
+
+//     //ddd($example);
+//     $example->go();
+// });
+
+
+// app()->bind('example', function(){
+    
+//     //$foo = config('services.foo'); //fetching the config settings that we need
+
+//     //return new App\Example($foo);
+//     return new App\Example();
+// });
+
+
+// Route::get('/', function (App\Example $example) {
+//     //$example = resolve('example');
+
+//     //$example = resolve(App\Example::class);
+
+//     // $example = app()->make(App\Example::class);
+
+//     ddd($example); 
+
+// });
+
+
+
+Route:: get('/', 'App\Http\Controllers\PageController@home');
 
 
 // Route::get('/welcome', function () {
