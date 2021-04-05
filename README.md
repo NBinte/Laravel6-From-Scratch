@@ -15,6 +15,19 @@ Eloquent - Basic Eloquent Relationships, Understanding Foreign Keys and Database
 Core Concepts - Collections, CSRF Attacks with Example, Service Container Fundamentals, Automatically Resolve Dependencies, Laravel Facades Demystified, Service Providers
  
 
+Run Following -
+
+1. Composer Install
+
+2. npm install
+
+3. npm run dev
+
+4. Create .env file, insert DB name and pass
+
+5. Run php artisan key:generate
+
+
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
